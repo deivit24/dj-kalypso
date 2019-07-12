@@ -1,3 +1,7 @@
+@media screen and (max-width: 500px) {
+  #sec1 h1 {
+    font-size: 2rem !important; } }
+
 #sec1 {
   height: 100vh;
   display: flex;
