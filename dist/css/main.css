@@ -1,6 +1,14 @@
 @media screen and (max-width: 500px) {
   #sec1 h1 {
-    font-size: 2rem !important; } }
+    font-size: 2rem !important; }
+  #About {
+    height: auto !important;
+    padding: 80px 20px; }
+    #About h1 {
+      font-size: 2rem !important; }
+  #Music {
+    height: auto !important;
+    padding: 80px 20px; } }
 
 .navbar {
   height: 100px;
@@ -81,6 +89,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center; }
+  #Music h1 {
+    font-size: 4.5rem;
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+    background: black;
+    padding: 15px 50px;
+    margin: 0 0 30px 0;
+    text-align: center; }
 
 #Contact {
   height: 100vh;
