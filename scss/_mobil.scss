@@ -1,7 +1,45 @@
 @include mediaSm {
+  .navbar {
+    height: 60px !important;
+    .nav-item {
+      font-size: 1rem !important;
+    }
+  }
   #sec1 {
     h1 {
       font-size: 2rem !important;
+    }
+    .container {
+      a {
+        i {
+          font-size: 20px !important;
+          line-height: 35px !important;
+          height: 40px !important;
+          width: 40px !important;
+        }
+        .facebook {
+          background: #3b5998;
+        }
+        .instagram {
+          background: linear-gradient(
+            45deg,
+            #405de6,
+            #5851db,
+            #833ab4,
+            #c13584,
+            #e1306c,
+            #e1306c,
+            #fd1d1d
+          );
+        }
+        .soundcloud {
+          background: linear-gradient(120deg, #ff8800, #ff3300);
+        }
+        .envelope {
+          background: white;
+          color: black;
+        }
+      }
     }
   }
 
@@ -16,5 +54,32 @@
   #Music {
     height: auto !important;
     padding: 80px 20px;
+  }
+
+  #Contact p.lead {
+    font-size: 20px !important;
+    margin-top: -30px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  #Contact h2 {
+    text-align: center;
+  }
+
+  #Contact .chat {
+    font-size: 150px !important;
+    margin-bottom: -50px;
+    text-align: center;
+  }
+
+  #Contact .lets {
+    font-size: 120px !important;
+    margin-bottom: -50px;
+    text-align: left !important;
+  }
+
+  #Contact .input-wrap.checkbox label {
+    font-size: 24px;
   }
 }

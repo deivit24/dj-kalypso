@@ -44,7 +44,6 @@ new ScrollMagic.Scene({
 
   .setClassToggle('#home-link', 'newCurrent')
 
-  .addIndicators()
   .addTo(changeNav);
 
 new ScrollMagic.Scene({
@@ -55,7 +54,6 @@ new ScrollMagic.Scene({
 
   .setClassToggle('.navbar', 'changeNav')
 
-  .addIndicators()
   .addTo(changeNav);
 
 new ScrollMagic.Scene({
@@ -66,7 +64,6 @@ new ScrollMagic.Scene({
 
   .setClassToggle('.navbar .nav-link', 'changeColor')
 
-  .addIndicators()
   .addTo(changeNav);
 
 new ScrollMagic.Scene({
@@ -77,7 +74,6 @@ new ScrollMagic.Scene({
 
   .setClassToggle('#about-link', 'newCurrent')
 
-  .addIndicators()
   .addTo(changeNav);
 
 var contactHeight = document.getElementById('Contact').offsetHeight;
@@ -90,7 +86,6 @@ new ScrollMagic.Scene({
 
   .setClassToggle('#music-link', 'newCurrent')
 
-  .addIndicators()
   .addTo(changeNav);
 
 new ScrollMagic.Scene({
@@ -101,5 +96,4 @@ new ScrollMagic.Scene({
 
   .setClassToggle('#contact-link', 'newCurrent')
 
-  .addIndicators()
   .addTo(changeNav);
