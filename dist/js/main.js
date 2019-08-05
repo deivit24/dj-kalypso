@@ -38,7 +38,7 @@ var musicHeight = document.getElementById('Music').offsetHeight;
 
 new ScrollMagic.Scene({
   triggerElement: '#sec1',
-  triggerHook: 0,
+  triggerHook: 0.1,
   duration: homeHeight
 })
 
@@ -48,7 +48,7 @@ new ScrollMagic.Scene({
 
 new ScrollMagic.Scene({
   triggerElement: '#About',
-  triggerHook: 0,
+  triggerHook: 0.1,
   duration: musicHeight
 })
 
@@ -58,7 +58,7 @@ new ScrollMagic.Scene({
 
 new ScrollMagic.Scene({
   triggerElement: '#About',
-  triggerHook: 0,
+  triggerHook: 0.1,
   duration: musicHeight
 })
 
@@ -68,7 +68,7 @@ new ScrollMagic.Scene({
 
 new ScrollMagic.Scene({
   triggerElement: '#About',
-  triggerHook: 0,
+  triggerHook: 0.1,
   duration: musicHeight
 })
 
@@ -80,7 +80,7 @@ var contactHeight = document.getElementById('Contact').offsetHeight;
 
 new ScrollMagic.Scene({
   triggerElement: '#Music',
-  triggerHook: 0,
+  triggerHook: 0.1,
   duration: contactHeight
 })
 
@@ -90,7 +90,7 @@ new ScrollMagic.Scene({
 
 new ScrollMagic.Scene({
   triggerElement: '#Contact',
-  triggerHook: 0,
+  triggerHook: 0.1,
   duration: contactHeight
 })
 
